@@ -33,7 +33,20 @@ public class MainActivity extends AppCompatActivity {
         client.addOnCommandReceivedListener(new Client.OnCommandRecievedListener() {
             @Override
             public void onCommandRecieved(String command) {
-                Toast.makeText(MainActivity.this,command,Toast.LENGTH_LONG).show();
+                String step = command.split(" ")[1];
+                String signalStep;
+                switch (step) {
+                    case "+":
+                        signalStep = "-1";
+                        break;
+                    case "-":
+                        signalStep = "1";
+                        break;
+                    default:
+                        signalStep = "0";
+                }
+                bluetooth.sendSignal(signalStep);
+                Toast.makeText(MainActivity.this,step,Toast.LENGTH_LONG).show();
             }
 
             @Override
