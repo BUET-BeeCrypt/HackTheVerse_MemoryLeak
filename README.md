@@ -52,9 +52,12 @@ _Step 1:_ Login to the [student webapp](https://telecommand.netlify.app/) using 
 ![](https://i.ibb.co/wSQRJ0k/image.png)  
 _Step 2:_ Navigate to class lectures or upcoming lab classes from sidebar.  
 ![](https://i.ibb.co/ZKNZjqd/image.png)  
-_Step 3:_ Watch single experiment from multiple cameraview for better understanding. 
-_\[video-1] \[video-2] \[video-3] will contain video of same experiment from diffrent angle.  
-As we didn't have lab access we provided sample lab videos from youtube._   
+_Step 3:_ Watch single experiment from multiple cameraview for better understanding.   
+
+>> _\[video-1] \[video-2] \[video-3] will contain video of same experiment from diffrent angle.  
+>> As we didn't have lab access we provided sample lab videos from youtube._   
+
+
 ![](https://i.ibb.co/CKPtGzt/image.png)  
 ![](https://i.ibb.co/dcpQ1x9/image.png) 
 _Step 4:_ find all scheduled lab classes.  
@@ -65,6 +68,15 @@ _Step-5_ Join lab class with single tap.
 _Step-6:_ control remote lab devices from student end.  
 ![](https://i.ibb.co/5WNNmps/image.png)  
 
+__LAB Side__
+_Step 1:_ Configure device (here, it should hold a thermometer, which could be moved in to liquid or out)  
+![](https://i.ibb.co/5sHMh2w/IMG-20201115-034144.jpg)  
+_Step 2:_ Run Android App  
+<img src="https://i.ibb.co/pK2YH1C/Screenshot-2020-11-15-04-24-30-138-com-engliplan-telelabclient.jpg" height=400>  
+_Step 3:_ Connect to Arduino via Bluetooth  
+<img src="https://i.ibb.co/jVcVvfF/Screenshot-2020-11-15-04-24-16-364-com-engliplan-telelabclient.jpg" height=400>  
+
+__READY TO GO__
 
 # Use cases
 - __Physics lab:__ finding jule's constant( or mechanical equivalent of heat)  for exmaple
