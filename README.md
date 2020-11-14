@@ -24,7 +24,8 @@ Having lab teacher(s) and lab assistant(s) in a big lab is not a big deal keepin
 - All lab class all in one place.
 
 ### Low Latency Command Sending
-![](https://i.ibb.co/kDJzG05/ezgif-com-gif-maker-2.gif)
+![](https://i.ibb.co/kDJzG05/ezgif-com-gif-maker-2.gif)  
+![](https://i.ibb.co/mNNVFpj/ezgif-com-gif-maker.gif)  
 
 ## Cost Effective
 Using simulation to lab experience with real world scenerios would cost much more money than our approach. For every case, we need expert of that subject, highly experinced programmers with better communication with experts. Moreover, we need much more proceessing power for running the simulation. It will be much costly. Simulation without real world scenerio, like without air-resistance, damping force - What is the difference between theoritical and parctical?  
