@@ -23,7 +23,10 @@ Having lab teacher(s) and lab assistant(s) in a big lab is not a big deal keepin
 - Low latency video stream with WebRTC(Currently used google meet as there was not enought time to implement it).  
 - All lab class all in one place.
 
-# Cost Effective
+### Low Latency Command Sending
+![](https://i.ibb.co/kDJzG05/ezgif-com-gif-maker-2.gif)
+
+## Cost Effective
 Using simulation to lab experience with real world scenerios would cost much more money than our approach. For every case, we need expert of that subject, highly experinced programmers with better communication with experts. Moreover, we need much more proceessing power for running the simulation. It will be much costly. Simulation without real world scenerio, like without air-resistance, damping force - What is the difference between theoritical and parctical?  
 Our working device much cheaper. Using 1 Arduino Nano, 1 Bluetooth, 2 Stepper Motor, 1 axis movement motor with a On/Off switch would cost us less than 800 BDT! No other service can offer this kind of experience at this price.
 
