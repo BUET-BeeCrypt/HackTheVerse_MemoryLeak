@@ -6,7 +6,7 @@ Use Android App to connect with Arduino Controller (Laboratory End)
 
 # Introduction
 
-Every lab has some fixed expreiment which can be done by simple rotation, trasformation and turning switch on and off. These actions can be performed using simple arduino made controllers. So in this project we made an arduino controller to control these movement within the lab remotely. Moreover, as students have to collect experiment related data from different angle, there will be multiple live video stream from differnt point of view of the experiment. Lab assitant will set up the arduino controller and the cameras before starting the lab. As a result students will be to have __an experience of conducting the exeriment with practical data and insight which no simulation can provide__.  
+Every lab has some fixed experiment which can be done by simple rotation, trasformation and turning switch on and off. These actions can be performed using simple arduino made controllers. So in this project we made an arduino controller to control these movement within the lab remotely. Moreover, as students have to collect experiment related data from different angle, there will be multiple live video stream from differnt point of view of the experiment. Lab assitant will set up the arduino controller and the cameras before starting the lab. As a result students will be to have __an experience of conducting the exeriment with practical data and insight which no simulation can provide__.  
 
 In current online educational system, students are provided with single video to learn about an experiment from it. They can't gain proper view of the conducted experiment. In our platform we provided a way to share multiple videos of a single a experiment from a different point of view. Using these, they will have a better understanding of the on-going experiment.  
 
@@ -18,9 +18,14 @@ Having lab teacher(s) and lab assistant(s) in a big lab is not a big deal keepin
 
 - Pre-recorded lab instructions with __mutiple cameraview.__
 - Students can get real __practice experience__ by controling aparatus, collecting lab data and conducting experiment
-- __Low latency__ command sending with realtime database.
-- Low latency video stream with WebRTC(Currently used google meet as there was not enought time to implement it).
+- __Low latency__ command sending with realtime database.  
+- __Cost Effective__ than other methods (One full device will 4 motion - 2 rotaion, 1 single-axis, on/off switch will cost less than 800tk with current setup)  
+- Low latency video stream with WebRTC(Currently used google meet as there was not enought time to implement it).  
 - All lab class all in one place.
+
+# Cost Effective
+Using simulation to lab experience with real world scenerios would cost much more money than our approach. For every case, we need expert of that subject, highly experinced programmers with better communication with experts. Moreover, we need much more proceessing power for running the simulation. It will be much costly. Simulation without real world scenerio, like without air-resistance, damping force - What is the difference between theoritical and parctical?  
+Our working device much cheaper. Using 1 Arduino Nano, 1 Bluetooth, 2 Stepper Motor, 1 axis movement motor with a On/Off switch would cost us less than 800 BDT! No other service can offer this kind of experience at this price.
 
 # Future plan
 
