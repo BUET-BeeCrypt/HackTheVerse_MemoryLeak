@@ -1,10 +1,18 @@
-# HackTheVerse_MemoryLeak
-
 # Preview
 
 Use [WebClient](https://telecommand.netlify.app/) from Students End
 
 Use Android App to connect with Arduino Controller (Laboratory End)
+
+# Introduction
+
+Every lab has some fixed expreiment which can be done by simple rotation, trasformation and turning switch on and off. These actions can be performed using simple arduino made controllers. So in this project we made an arduino controller to control these movement within the lab remotely. Moreover, as students have to collect experiment related data from different angle, there will be multiple live video stream from differnt point of view of the experiment. Lab assitant will set up the arduino controller and the cameras before starting the lab. As a result students will be to have __an experience of conducting the exeriment with practical data and insight which no simulation can provide__.  
+
+In current online educational system, students are provided with single video to learn about an experiment from it. They can't gain proper view of the conducted experiment. In our platform we provided a way to share multiple videos of a single a experiment from a different point of view. Using these, they will have a better understanding of the on-going experiment.  
+
+Students can ask questions to the teachers who is present in the lab. He can also review also review the experiment conducted remotely.  
+
+Having lab teacher(s) and lab assistant(s) in a big lab is not a big deal keeping social distance during the corona pandemic.
 
 # Features
 
@@ -14,10 +22,20 @@ Use Android App to connect with Arduino Controller (Laboratory End)
 - Low latency video stream with WebRTC(Currently used google meet as there was not enought time to implement it).
 - All lab class all in one place.
 
+# Future plan
+
+- Moving from google meet to self-develped WebRTC based video streaming
+- Changing camera position remotely which is done by the lab assitant currently.
+- Developing web app prototypes to a functionable educational platform where other academic activies can also be conducted.
 
 # Development
 
+__An overview of the whole project__   
+![](https://i.ibb.co/BwjNtvK/Hack-the-verse.png)  
 
+__Use case diagram__  
+
+![](https://i.ibb.co/StSppfy/Use-Case-Diagram.png)
 
 # Used Technologies
 
@@ -35,8 +53,8 @@ _Step 1:_ Login to the [student webapp](https://telecommand.netlify.app/) using 
 _Step 2:_ Navigate to class lectures or upcoming lab classes from sidebar.  
 ![](https://i.ibb.co/ZKNZjqd/image.png)  
 _Step 3:_ Watch single experiment from multiple cameraview for better understanding. 
-> \[video-1] \[video-2] \[video-3] will contain video of same experiment from diffrent angle.
-> As we didn't have lab access we provided sample lab videos from youtube.
+_\[video-1] \[video-2] \[video-3] will contain video of same experiment from diffrent angle.  
+As we didn't have lab access we provided sample lab videos from youtube._   
 ![](https://i.ibb.co/CKPtGzt/image.png)  
 ![](https://i.ibb.co/dcpQ1x9/image.png) 
 _Step 4:_ find all scheduled lab classes.  
@@ -49,4 +67,6 @@ _Step-6:_ control remote lab devices from student end.
 
 
 # Use cases
-
+- __Physics lab:__ finding jule's constant( or mechanical equivalent of heat)  for exmaple
+- __Chemistry lab:__ Doing titration for example
+- __Bilogy lab:__ Watching somthing uder microscope and controlling the microscope to focus the slide for example. 
