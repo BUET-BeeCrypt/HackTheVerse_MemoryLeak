@@ -90,4 +90,4 @@ __READY TO GO__
 # Use cases
 - __Physics lab:__ finding jule's constant( or mechanical equivalent of heat)  for exmaple
 - __Chemistry lab:__ Doing titration for example
-- __Bilogy lab:__ Watching somthing uder microscope and controlling the microscope to focus the slide for example. 
+- __Biology lab:__ Watching somthing uder microscope and controlling the microscope to focus the slide for example. 
